@@ -1,0 +1,47 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - MBProgressHUD (1.1.0)
+  - Reachability (3.2)
+  - ZFPlayer (3.2.13):
+    - ZFPlayer/Core (= 3.2.13)
+  - ZFPlayer/AVPlayer (3.2.13):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.13):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.13)
+
+DEPENDENCIES:
+  - ASIHTTPRequest
+  - MBProgressHUD
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ASIHTTPRequest
+    - MBProgressHUD
+    - Reachability
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ZFPlayer: b2ba40c924e1b9a7f0a670632c4235ffbe6ee055
+
+PODFILE CHECKSUM: 2ce0ca6cb554cf5606ded790e2ffcabdaba32a92
+
+COCOAPODS: 1.7.5

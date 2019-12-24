@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASIHTTPRequest/ASIHTTPRequest.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
+${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework

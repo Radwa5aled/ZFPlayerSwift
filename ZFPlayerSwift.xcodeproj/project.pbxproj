@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44ED35E823AE4F0800C755F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED35E723AE4F0800C755F0 /* AppDelegate.swift */; };
+		44ED35EA23AE4F0800C755F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED35E923AE4F0800C755F0 /* SceneDelegate.swift */; };
+		44ED35EC23AE4F0800C755F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED35EB23AE4F0800C755F0 /* ViewController.swift */; };
+		44ED35EF23AE4F0800C755F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ED35ED23AE4F0800C755F0 /* Main.storyboard */; };
+		44ED35F123AE4F0C00C755F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44ED35F023AE4F0C00C755F0 /* Assets.xcassets */; };
+		44ED35F423AE4F0C00C755F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44ED35F223AE4F0C00C755F0 /* LaunchScreen.storyboard */; };
+		44ED360623AE504F00C755F0 /* ZFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED35FD23AE504F00C755F0 /* ZFDownloadManager.m */; };
+		44ED360723AE504F00C755F0 /* ZFCommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED360123AE504F00C755F0 /* ZFCommonHelper.m */; };
+		44ED360823AE504F00C755F0 /* ZFHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED360323AE504F00C755F0 /* ZFHttpRequest.m */; };
+		44ED360923AE504F00C755F0 /* ZFFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED360523AE504F00C755F0 /* ZFFileModel.m */; };
+		44F231C023B23CDB002B8052 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231BF23B23CDB002B8052 /* Helper.swift */; };
+		44F231CF23B2421B002B8052 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231CE23B2421B002B8052 /* Utilities.swift */; };
+		44F231D123B24724002B8052 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231D023B24724002B8052 /* DownloadViewController.swift */; };
+		44F231D523B248AD002B8052 /* ZFDownloadedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231D323B248AD002B8052 /* ZFDownloadedCell.swift */; };
+		44F231D623B248AD002B8052 /* ZFDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231D423B248AD002B8052 /* ZFDownloadingCell.swift */; };
+		44F231D923B24C2D002B8052 /* VideoFullscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F231D823B24C2D002B8052 /* VideoFullscreenViewController.swift */; };
+		B578B56F67CE86F858484E38 /* Pods_ZFPlayerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8123CC78A2419714C2D25683 /* Pods_ZFPlayerSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44ED35E423AE4F0800C755F0 /* ZFPlayerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlayerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ED35E723AE4F0800C755F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44ED35E923AE4F0800C755F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44ED35EB23AE4F0800C755F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44ED35EE23AE4F0800C755F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44ED35F023AE4F0C00C755F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44ED35F323AE4F0C00C755F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44ED35F523AE4F0C00C755F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44ED35FD23AE504F00C755F0 /* ZFDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDownloadManager.m; sourceTree = "<group>"; };
+		44ED35FE23AE504F00C755F0 /* ZFCommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCommonHelper.h; sourceTree = "<group>"; };
+		44ED35FF23AE504F00C755F0 /* ZFHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHttpRequest.h; sourceTree = "<group>"; };
+		44ED360023AE504F00C755F0 /* ZFFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFFileModel.h; sourceTree = "<group>"; };
+		44ED360123AE504F00C755F0 /* ZFCommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCommonHelper.m; sourceTree = "<group>"; };
+		44ED360223AE504F00C755F0 /* ZFDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadManager.h; sourceTree = "<group>"; };
+		44ED360323AE504F00C755F0 /* ZFHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHttpRequest.m; sourceTree = "<group>"; };
+		44ED360423AE504F00C755F0 /* ZFDownloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDownloadDelegate.h; sourceTree = "<group>"; };
+		44ED360523AE504F00C755F0 /* ZFFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFFileModel.m; sourceTree = "<group>"; };
+		44F231BF23B23CDB002B8052 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		44F231CD23B23EC3002B8052 /* ZFPlayerSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFPlayerSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		44F231CE23B2421B002B8052 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		44F231D023B24724002B8052 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		44F231D323B248AD002B8052 /* ZFDownloadedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFDownloadedCell.swift; sourceTree = "<group>"; };
+		44F231D423B248AD002B8052 /* ZFDownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFDownloadingCell.swift; sourceTree = "<group>"; };
+		44F231D823B24C2D002B8052 /* VideoFullscreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFullscreenViewController.swift; sourceTree = "<group>"; };
+		8123CC78A2419714C2D25683 /* Pods_ZFPlayerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFPlayerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AC9FF8E6FD860F79FA12AC /* Pods-ZFPlayerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerSwift.debug.xcconfig"; path = "Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D82EC4030F56C9640A6D0D /* Pods-ZFPlayerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerSwift.release.xcconfig"; path = "Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ED35E123AE4F0800C755F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578B56F67CE86F858484E38 /* Pods_ZFPlayerSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44ED35DB23AE4F0700C755F0 = {
+			isa = PBXGroup;
+			children = (
+				44ED35E623AE4F0800C755F0 /* ZFPlayerSwift */,
+				44ED35E523AE4F0800C755F0 /* Products */,
+				FEA40959B2BBC0F647D4BAEC /* Pods */,
+				F6ED755A032982C705603321 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44ED35E523AE4F0800C755F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ED35E423AE4F0800C755F0 /* ZFPlayerSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ED35E623AE4F0800C755F0 /* ZFPlayerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				44F231BE23B23CBC002B8052 /* Helpers */,
+				44ED35FB23AE502300C755F0 /* ManualFrameworks */,
+				44F231D223B24729002B8052 /* DownloadList */,
+				44F231D723B24C19002B8052 /* VideoFullScreen */,
+				44ED35E723AE4F0800C755F0 /* AppDelegate.swift */,
+				44ED35E923AE4F0800C755F0 /* SceneDelegate.swift */,
+				44ED35EB23AE4F0800C755F0 /* ViewController.swift */,
+				44ED35ED23AE4F0800C755F0 /* Main.storyboard */,
+				44ED35F023AE4F0C00C755F0 /* Assets.xcassets */,
+				44ED35F223AE4F0C00C755F0 /* LaunchScreen.storyboard */,
+				44ED35F523AE4F0C00C755F0 /* Info.plist */,
+				44F231CD23B23EC3002B8052 /* ZFPlayerSwift-Bridging-Header.h */,
+			);
+			path = ZFPlayerSwift;
+			sourceTree = "<group>";
+		};
+		44ED35FB23AE502300C755F0 /* ManualFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44ED35FC23AE504F00C755F0 /* ZFDownload */,
+			);
+			path = ManualFrameworks;
+			sourceTree = "<group>";
+		};
+		44ED35FC23AE504F00C755F0 /* ZFDownload */ = {
+			isa = PBXGroup;
+			children = (
+				44ED360423AE504F00C755F0 /* ZFDownloadDelegate.h */,
+				44ED35FE23AE504F00C755F0 /* ZFCommonHelper.h */,
+				44ED360123AE504F00C755F0 /* ZFCommonHelper.m */,
+				44ED360223AE504F00C755F0 /* ZFDownloadManager.h */,
+				44ED35FD23AE504F00C755F0 /* ZFDownloadManager.m */,
+				44ED35FF23AE504F00C755F0 /* ZFHttpRequest.h */,
+				44ED360323AE504F00C755F0 /* ZFHttpRequest.m */,
+				44ED360023AE504F00C755F0 /* ZFFileModel.h */,
+				44ED360523AE504F00C755F0 /* ZFFileModel.m */,
+			);
+			path = ZFDownload;
+			sourceTree = "<group>";
+		};
+		44F231BE23B23CBC002B8052 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44F231BF23B23CDB002B8052 /* Helper.swift */,
+				44F231CE23B2421B002B8052 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44F231D223B24729002B8052 /* DownloadList */ = {
+			isa = PBXGroup;
+			children = (
+				44F231D323B248AD002B8052 /* ZFDownloadedCell.swift */,
+				44F231D423B248AD002B8052 /* ZFDownloadingCell.swift */,
+				44F231D023B24724002B8052 /* DownloadViewController.swift */,
+			);
+			path = DownloadList;
+			sourceTree = "<group>";
+		};
+		44F231D723B24C19002B8052 /* VideoFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				44F231D823B24C2D002B8052 /* VideoFullscreenViewController.swift */,
+			);
+			path = VideoFullScreen;
+			sourceTree = "<group>";
+		};
+		F6ED755A032982C705603321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8123CC78A2419714C2D25683 /* Pods_ZFPlayerSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA40959B2BBC0F647D4BAEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5AC9FF8E6FD860F79FA12AC /* Pods-ZFPlayerSwift.debug.xcconfig */,
+				F6D82EC4030F56C9640A6D0D /* Pods-ZFPlayerSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ED35E323AE4F0800C755F0 /* ZFPlayerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ED35F823AE4F0C00C755F0 /* Build configuration list for PBXNativeTarget "ZFPlayerSwift" */;
+			buildPhases = (
+				C3C2BA7D728C34276A50D9E0 /* [CP] Check Pods Manifest.lock */,
+				44ED35E023AE4F0800C755F0 /* Sources */,
+				44ED35E123AE4F0800C755F0 /* Frameworks */,
+				44ED35E223AE4F0800C755F0 /* Resources */,
+				163666EB1F1CD7C2C5346B6B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPlayerSwift;
+			productName = ZFPlayerSwift;
+			productReference = 44ED35E423AE4F0800C755F0 /* ZFPlayerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ED35DC23AE4F0700C755F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					44ED35E323AE4F0800C755F0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 44ED35DF23AE4F0800C755F0 /* Build configuration list for PBXProject "ZFPlayerSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44ED35DB23AE4F0700C755F0;
+			productRefGroup = 44ED35E523AE4F0800C755F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ED35E323AE4F0800C755F0 /* ZFPlayerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44ED35E223AE4F0800C755F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ED35F423AE4F0C00C755F0 /* LaunchScreen.storyboard in Resources */,
+				44ED35F123AE4F0C00C755F0 /* Assets.xcassets in Resources */,
+				44ED35EF23AE4F0800C755F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163666EB1F1CD7C2C5346B6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZFPlayerSwift/Pods-ZFPlayerSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C2BA7D728C34276A50D9E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFPlayerSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ED35E023AE4F0800C755F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ED35EC23AE4F0800C755F0 /* ViewController.swift in Sources */,
+				44F231D923B24C2D002B8052 /* VideoFullscreenViewController.swift in Sources */,
+				44ED360623AE504F00C755F0 /* ZFDownloadManager.m in Sources */,
+				44ED360723AE504F00C755F0 /* ZFCommonHelper.m in Sources */,
+				44ED360923AE504F00C755F0 /* ZFFileModel.m in Sources */,
+				44F231D623B248AD002B8052 /* ZFDownloadingCell.swift in Sources */,
+				44F231D523B248AD002B8052 /* ZFDownloadedCell.swift in Sources */,
+				44ED35E823AE4F0800C755F0 /* AppDelegate.swift in Sources */,
+				44ED35EA23AE4F0800C755F0 /* SceneDelegate.swift in Sources */,
+				44F231CF23B2421B002B8052 /* Utilities.swift in Sources */,
+				44ED360823AE504F00C755F0 /* ZFHttpRequest.m in Sources */,
+				44F231D123B24724002B8052 /* DownloadViewController.swift in Sources */,
+				44F231C023B23CDB002B8052 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44ED35ED23AE4F0800C755F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ED35EE23AE4F0800C755F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44ED35F223AE4F0C00C755F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44ED35F323AE4F0C00C755F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44ED35F623AE4F0C00C755F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44ED35F723AE4F0C00C755F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44ED35F923AE4F0C00C755F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AC9FF8E6FD860F79FA12AC /* Pods-ZFPlayerSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				INFOPLIST_FILE = ZFPlayerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZFPlayerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZFPlayerSwift/ZFPlayerSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44ED35FA23AE4F0C00C755F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D82EC4030F56C9640A6D0D /* Pods-ZFPlayerSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6EKB3LKQX;
+				INFOPLIST_FILE = ZFPlayerSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZFPlayerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZFPlayerSwift/ZFPlayerSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ED35DF23AE4F0800C755F0 /* Build configuration list for PBXProject "ZFPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ED35F623AE4F0C00C755F0 /* Debug */,
+				44ED35F723AE4F0C00C755F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ED35F823AE4F0C00C755F0 /* Build configuration list for PBXNativeTarget "ZFPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ED35F923AE4F0C00C755F0 /* Debug */,
+				44ED35FA23AE4F0C00C755F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44ED35DC23AE4F0700C755F0 /* Project object */;
+}

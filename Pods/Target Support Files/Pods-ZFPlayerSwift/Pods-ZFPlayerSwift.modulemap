@@ -1,0 +1,6 @@
+framework module Pods_ZFPlayerSwift {
+  umbrella header "Pods-ZFPlayerSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
